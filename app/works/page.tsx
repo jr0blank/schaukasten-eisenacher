@@ -8,26 +8,28 @@ const archivoBlack = Archivo_Black({
 
 export default function Works() {
   return (
-    <main className="min-h-screen bg-[#f7f5ef] text-black">
-      <header className="flex justify-between items-center px-16 pt-8 pb-14">
-        <h1 className={`${archivoBlack.className} text-[#c3312f] text-xl`}>
+    <main className="min-h-screen bg-[#f7f5ef] text-black px-5 py-6 md:px-16 md:py-8">
+      <header className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <h1 className={`${archivoBlack.className} text-[#c3312f] text-xl leading-none md:text-xl`}>
           Schaukasten Eisenacherstr.
         </h1>
 
-        <nav className="flex gap-10 text-sm tracking-[0.12em] uppercase">
+        <nav className="flex gap-6 text-xs tracking-[0.12em] uppercase md:text-sm">
           <Link href="/">Current</Link>
           <Link href="/works">Works</Link>
           <Link href="/info">Info</Link>
         </nav>
       </header>
 
-      <section className="mx-16 max-w-3xl">
-        <h2 className="text-xl mb-12">Works</h2>
+      <section>
+        <h2 className="mb-8 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
+          Works
+        </h2>
 
-        <div className="space-y-8">
+        <div className="space-y-6 text-sm">
           <Link
             href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-i"
-            className="flex justify-between gap-8 border-b pb-4 hover:text-[#c3312f]"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
           >
             <span>Skizze aus einem Kindertraum von der Apokalypse I</span>
             <span className="text-[#c3312f]">→</span>
@@ -35,7 +37,7 @@ export default function Works() {
 
           <Link
             href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-ii"
-            className="flex justify-between gap-8 border-b pb-4 hover:text-[#c3312f]"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
           >
             <span>Skizze aus einem Kindertraum von der Apokalypse II</span>
             <span className="text-[#c3312f]">→</span>
@@ -43,7 +45,7 @@ export default function Works() {
 
           <Link
             href="/works/edition"
-            className="flex justify-between gap-8 border-b pb-4 hover:text-[#c3312f]"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
           >
             <span>Edition (Risograph)</span>
             <span className="text-[#c3312f]">→</span>
