@@ -1,6 +1,5 @@
-import Link from "next/link";
-
 import Image from "next/image";
+import Link from "next/link";
 import { Archivo_Black } from "next/font/google";
 
 const archivoBlack = Archivo_Black({
@@ -10,106 +9,78 @@ const archivoBlack = Archivo_Black({
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-[#f7f5ef] text-black">
+    <main className="min-h-screen bg-[#f7f5ef] text-black px-5 py-6 md:px-16 md:py-8">
 
-      {/* Header */}
-
-      <header className="flex justify-between items-center px-16 pt-8 pb-14">
-
-        <h1 className={`${archivoBlack.className} text-[#c3312f] text-2xl`}>
-  Schaukasten Eisenacherstr.
- 
-
+      <header className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
+        <h1 className={`${archivoBlack.className} text-[#c3312f] text-2xl leading-none md:text-xl`}>
+          Schaukasten Eisenacherstr.
         </h1>
 
-        <nav className="flex gap-10 text-sm tracking-widest uppercase">
-
-
+        <nav className="flex gap-6 text-xs tracking-[0.12em] uppercase md:text-sm">
           <Link href="/">Current</Link>
-<Link href="/works">Works</Link>
+          <Link href="/works">Works</Link>
           <Link href="/info">Info</Link>
-
         </nav>
-
       </header>
 
-      {/* Hero */}
+      <section className="border border-[#c3312f] p-5 md:p-10">
 
-      <section className="mx-20 border border-[#c3312f] p-16">
+        <Image
+          src="/images/placeholder.jpeg"
+          alt="Installation view"
+          width={1400}
+          height={1000}
+          className="w-full h-auto"
+          priority
+        />
 
-        <div className="aspect-[4/3] relative overflow-hidden">
-  <Image
-    src="/images/placeholder.jpeg"
-    alt="Schaukasten placeholder"
-    fill
-    className="object-cover object-center"
-    priority
-  />
-        </div>
-
-        <div className="text-center mt-10">
-
-          <h2 className="text-lg font-light tracking-[0.15em]">
-  J.R. Blank
+        <div className="mt-8 text-center">
+          <h2 className="text-base font-light tracking-[0.15em]">
+            J.R. Blank
           </h2>
 
-          <p className="mt-2 text-xs uppercase tracking-[0.3em] text-neutral-600">
-  Zwei Bilder für zwei Schaukästen
+          <p className="mt-3 text-xs uppercase tracking-[0.2em] text-neutral-600">
+            Zwei Bilder für zwei Schaukästen
           </p>
 
+          <div className="mt-6 text-[#c3312f] text-xl">
+            ↓
+          </div>
         </div>
-
       </section>
-<section className="mx-16 mt-24">
 
-  <h2 className="text-xs uppercase tracking-[0.3em] text-neutral-500 mb-10">
-    Works
-  </h2>
+      <section className="mt-14">
+        <h2 className="mb-8 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
+          Works
+        </h2>
 
-  <div className="space-y-8">
+        <div className="space-y-6 text-sm">
+          <Link
+            href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-i"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
+          >
+            <span>Skizze aus einem Kindertraum von der Apokalypse I</span>
+            <span className="text-[#c3312f]">→</span>
+          </Link>
 
-    <div className="flex justify-between items-center border-b border-neutral-300 pb-4">
-      <div>
-        <h3 className="text-lg">Skizze aus einem Kindertraum von der Apokalypse I</h3>
-        <p className="text-sm text-neutral-500">
-          Oil on canvas
-        </p>
-      </div>
+          <Link
+            href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-ii"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
+          >
+            <span>Skizze aus einem Kindertraum von der Apokalypse II</span>
+            <span className="text-[#c3312f]">→</span>
+          </Link>
 
-      <Link href="/works">
-        View Details
-      </Link>
-    </div>
+          <Link
+            href="/works/edition"
+            className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
+          >
+            <span>Edition (Risograph)</span>
+            <span className="text-[#c3312f]">→</span>
+          </Link>
+        </div>
+      </section>
 
-    <div className="flex justify-between items-center border-b border-neutral-300 pb-4">
-      <div>
-        <h3 className="text-lg">Skizze aus einem Kindertraum von der Apokalypse II</h3>
-        <p className="text-sm text-neutral-500">
-          Oil on canvas
-        </p>
-      </div>
-
-      <Link href="/works">
-        View Details
-      </Link>
-    </div>
-
-    <div className="flex justify-between items-center border-b border-neutral-300 pb-4">
-      <div>
-        <h3 className="text-lg">Edition</h3>
-        <p className="text-sm text-neutral-500">
-          Risograph Edition
-        </p>
-      </div>
-
-      <Link href="/works">
-        View Details
-      </Link>
-    </div>
-
-  </div>
-
-</section>
     </main>
   );
 }
