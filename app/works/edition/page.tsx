@@ -15,7 +15,7 @@ export default function Edition() {
         </h1>
 
         <nav className="flex gap-6 text-xs tracking-[0.12em] uppercase md:text-sm">
-          <Link href="/">Current</Link>
+          <Link href="/">Home</Link>
           <Link href="/works">Works</Link>
           <Link href="/info">Info</Link>
         </nav>
