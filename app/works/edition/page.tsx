@@ -28,7 +28,7 @@ export default function Edition() {
         </Link>
 
         <Image
-          src="/images/edition-risograph.jpg"
+          src="/images/edition-risograph-2.jpg"
           alt="Edition (Risograph)"
           width={1400}
           height={1100}
