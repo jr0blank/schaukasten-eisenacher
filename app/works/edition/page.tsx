@@ -46,7 +46,9 @@ export default function Edition() {
           <p className="text-neutral-600">50 €</p>
 
           <p className="pt-4 text-neutral-600">
-            For purchase inquiries:
+            Available for purchase.
+For orders and shipping inquiries:
+info@schaukasten-eisenacher.de
             <br />
             info@schaukasten-eisenacher.de
           </p>
