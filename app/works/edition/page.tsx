@@ -48,7 +48,6 @@ export default function Edition() {
           <p className="pt-4 text-neutral-600">
             Available for purchase.
 For orders and shipping inquiries:
-info@schaukasten-eisenacher.de
             <br />
             info@schaukasten-eisenacher.de
           </p>
