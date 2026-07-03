@@ -30,7 +30,7 @@ export default function Home() {
     alt="Installation view"
     width={2000}
     height={1500}
-    className="w-full h-[55vh] object-cover md:h-auto"
+    className="w-full h-auto"
     priority
   />
 </div>
