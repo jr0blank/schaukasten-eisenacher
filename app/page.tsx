@@ -26,8 +26,8 @@ export default function Home() {
       <section className="border border-[#c3312f] p-5 md:p-10">
 
         <Image
-          src="/images/placeholder.jpeg"
-          alt="Installation view"
+         src="/images/hero-installation.jpg"
+          alt="Installation view of Zwei Bilder für zwei Schaukästen"
           width={1400}
           height={1000}
           className="w-full h-auto"
