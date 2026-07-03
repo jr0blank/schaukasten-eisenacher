@@ -10,32 +10,29 @@ const archivoBlack = Archivo_Black({
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f7f5ef] text-black px-5 py-6 md:px-16 md:py-8">
-
-      <header className="mb-10 flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-        <h1 className={`${archivoBlack.className} text-[#c3312f] text-lg md:text-xl leading-none whitespace-nowrap`}>
+      <header className="mb-10 flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
+        <h1 className={`${archivoBlack.className} text-[#c3312f] text-base md:text-xl leading-none whitespace-nowrap`}>
           Schaukasten Eisenacherstr.
         </h1>
 
-        <nav className="flex gap-6 text-xs tracking-[0.12em] uppercase md:text-sm">
+        <nav className="flex gap-5 text-[11px] tracking-[0.12em] uppercase md:text-sm">
           <Link href="/">Home</Link>
           <Link href="/works">Works</Link>
           <Link href="/info">Info</Link>
         </nav>
       </header>
 
-      <section className="border border-[#c3312f] p-5 md:p-10">
-<div className="overflow-hidden">
-  <Image
-    src="/images/hero-installation.jpg"
-    alt="Installation view"
-    width={2000}
-    height={1500}
-    className="w-full h-auto"
-    priority
-  />
-</div>
+      <section className="border border-[#c3312f] p-3 md:p-10">
+        <Image
+          src="/images/hero-installation.jpg"
+          alt="Installation view of Zwei Bilder für zwei Schaukästen"
+          width={2000}
+          height={1500}
+          className="w-full h-auto"
+          priority
+        />
 
-        <div className="mt-8 text-center">
+        <div className="mt-5 text-center">
           <h2 className="text-base font-light tracking-[0.15em]">
             J.R. Blank
           </h2>
@@ -44,7 +41,7 @@ export default function Home() {
             Zwei Bilder für zwei Schaukästen
           </p>
 
-          <div className="mt-6 text-[#c3312f] text-xl">
+          <div className="mt-5 text-[#c3312f] text-xl">
             ↓
           </div>
         </div>
@@ -81,7 +78,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-
     </main>
   );
 }
