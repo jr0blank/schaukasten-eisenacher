@@ -74,6 +74,15 @@ export default function Painting2() {
           <p className="text-neutral-600">2026</p>
           <p className="text-neutral-600">Oil on canvas</p>
           <p className="text-neutral-600">190 × 150 cm</p>
+          <p className="pt-4 text-neutral-600">
+  Available
+</p>
+
+<p className="text-neutral-600">
+  For inquiries:
+  <br />
+  info@schaukasten-eisenacher.de
+</p>
         </div>
       </section>
     </main>
