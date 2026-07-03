@@ -24,15 +24,16 @@ export default function Home() {
       </header>
 
       <section className="border border-[#c3312f] p-5 md:p-10">
-
-        <Image
-         src="/images/hero-installation.jpg"
-          alt="Installation view of Zwei Bilder für zwei Schaukästen"
-          width={1400}
-          height={1000}
-          className="w-full h-auto"
-          priority
-        />
+<div className="overflow-hidden">
+  <Image
+    src="/images/hero-installation.jpg"
+    alt="Installation view"
+    width={2000}
+    height={1500}
+    className="w-full h-[55vh] object-cover md:h-auto"
+    priority
+  />
+</div>
 
         <div className="mt-8 text-center">
           <h2 className="text-base font-light tracking-[0.15em]">
