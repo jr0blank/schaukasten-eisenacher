@@ -21,8 +21,9 @@ export default function Info() {
       </header>
 
       <section className="max-w-2xl border border-[#c3312f] p-6 md:p-8">
-        <h2 className="mb-8 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
-          
+        
+           <h2 className="mb-8 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
+    About
         </h2>
 
         <div className="space-y-6 text-sm leading-7">
