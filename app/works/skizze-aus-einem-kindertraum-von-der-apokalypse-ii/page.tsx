@@ -35,7 +35,37 @@ export default function Painting2() {
           className="mt-8 w-full h-auto"
           priority
         />
+<Image
+  src="/images/apocalypse-2-installation-1.jpg"
+  alt="Installation view"
+  width={1400}
+  height={1100}
+  className="mt-8 w-full h-auto"
+/>
 
+<Image
+  src="/images/apocalypse-2-installation-2.jpg"
+  alt="Installation view"
+  width={1400}
+  height={1100}
+  className="mt-8 w-full h-auto"
+/>
+
+<Image
+  src="/images/apocalypse-2-installation-3.jpg"
+  alt="Installation view"
+  width={1400}
+  height={1100}
+  className="mt-8 w-full h-auto"
+/>
+
+<Image
+  src="/images/apocalypse-2-installation-4.jpg"
+  alt="Installation view"
+  width={1400}
+  height={1100}
+  className="mt-8 w-full h-auto"
+/>
         <div className="mt-8 max-w-xl space-y-2 text-sm">
           <h2 className="text-base">
             Skizze aus einem Kindertraum von der Apokalypse II
