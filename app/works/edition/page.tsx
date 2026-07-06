@@ -41,7 +41,7 @@ export default function Edition() {
 
           <p className="text-neutral-600">Risograph print</p>
           <p className="text-neutral-600">
-            Edition of 25, signed and numbered
+            Edition of 25, signed and numbered, 40 x 30 cm, printed on Munken 170g
           </p>
           <p className="text-neutral-600">50 €</p>
 
