@@ -57,7 +57,7 @@ export default function Home() {
             href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-i"
             className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
           >
-            <span>Skizze aus einem Kindertraum von der Apokalypse I</span>
+            <span>Kindertraum von der Apokalypse I</span>
             <span className="text-[#c3312f]">→</span>
           </Link>
 
@@ -65,7 +65,7 @@ export default function Home() {
             href="/works/skizze-aus-einem-kindertraum-von-der-apokalypse-ii"
             className="flex justify-between gap-6 border-b border-neutral-300 pb-4"
           >
-            <span>Skizze aus einem Kindertraum von der Apokalypse II</span>
+            <span>Kindertraum von der Apokalypse II</span>
             <span className="text-[#c3312f]">→</span>
           </Link>
 
