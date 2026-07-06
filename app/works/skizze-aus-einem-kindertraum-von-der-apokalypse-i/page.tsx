@@ -68,7 +68,7 @@ export default function Painting1() {
 />
         <div className="mt-8 max-w-xl space-y-2 text-sm">
           <h2 className="text-base">
-            Skizze aus einem Kindertraum von der Apokalypse I
+            Kindertraum von der Apokalypse I
           </h2>
 
           <p className="text-neutral-600">2026</p>

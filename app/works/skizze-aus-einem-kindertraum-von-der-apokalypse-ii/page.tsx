@@ -68,14 +68,13 @@ export default function Painting2() {
 />
         <div className="mt-8 max-w-xl space-y-2 text-sm">
           <h2 className="text-base">
-            Skizze aus einem Kindertraum von der Apokalypse II
+            Kindertraum von der Apokalypse II
           </h2>
 
           <p className="text-neutral-600">2026</p>
           <p className="text-neutral-600">Oil on canvas</p>
           <p className="text-neutral-600">190 × 150 cm</p>
-          <p className="pt-4 text-neutral-600">
-  Available
+          <p className="pt-4 text-neutral-600">Available
 </p>
 
 <p className="text-neutral-600">
