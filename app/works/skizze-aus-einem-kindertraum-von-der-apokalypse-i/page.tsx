@@ -27,14 +27,7 @@ export default function Painting1() {
           ← Back to Works
         </Link>
 
-        <Image
-          src="/images/painting-1.jpeg"
-          alt="Skizze aus einem Kindertraum von der Apokalypse I"
-          width={1400}
-          height={1100}
-          className="mt-8 w-full h-auto"
-          priority
-        />
+        
 <Image
   src="/images/apokalypse-1-installation-1.jpg"
   alt="Installation view"
@@ -66,6 +59,14 @@ export default function Painting1() {
   height={1100}
   className="mt-8 w-full h-auto"
 />
+<Image
+          src="/images/painting-1.jpeg"
+          alt="Skizze aus einem Kindertraum von der Apokalypse I"
+          width={1400}
+          height={1100}
+          className="mt-8 w-full h-auto"
+          priority
+        />
         <div className="mt-8 max-w-xl space-y-2 text-sm">
           <h2 className="text-base">
             Kindertraum von der Apokalypse I
