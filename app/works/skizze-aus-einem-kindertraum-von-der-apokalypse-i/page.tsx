@@ -76,7 +76,7 @@ export default function Painting1() {
           <p className="text-neutral-600">Oil on canvas</p>
           <p className="text-neutral-600">190 × 150 cm</p>
           <p className="pt-4 text-neutral-600">
-  Available
+  
 </p>
 
 <p className="text-neutral-600">
