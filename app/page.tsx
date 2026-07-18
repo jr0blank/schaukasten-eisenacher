@@ -16,10 +16,11 @@ export default function Home() {
         </h1>
 
         <nav className="flex gap-5 text-[11px] tracking-[0.12em] uppercase md:text-sm">
-          <Link href="/">Home</Link>
-          <Link href="/works">Works</Link>
-          <Link href="/info">Info</Link>
-        </nav>
+  <Link href="/">Home</Link>
+  <Link href="/works">Works</Link>
+  <Link href="/text">Text</Link>
+  <Link href="/info">Info</Link>
+</nav>
       </header>
 
       <section className="border border-[#c3312f] p-3 md:p-10">
