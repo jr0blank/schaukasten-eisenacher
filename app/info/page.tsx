@@ -32,7 +32,7 @@ export default function Info() {
             Schaukasten Eisenacherstraße is a series of monthly exhibitions
             that brings 6 artistic positions per year to the display cases
             at U-Bahnhof Eisenacher Straße in Berlin. The works are
-            accompanied by editions that are available through this website.
+            accompanied by a commisioned text and editions that are available through this website.
           </p>
 
           <p>
