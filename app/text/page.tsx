@@ -78,7 +78,7 @@ for anyone.`}
         </div>
 
         <p className="mt-10 italic text-neutral-600">
-          — Jaime Heather Schwarz
+          — Jaime Heather Schwarzt
         </p>
       </section>
     </main>
