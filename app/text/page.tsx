@@ -28,6 +28,9 @@ export default function TextPage() {
         <h2 className="mb-10 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
           Text
         </h2>
+        <p className="mb-3 text-sm text-[#c3312f]">
+  July 2026
+</p>
 
         <h3 className="mb-8 text-lg font-semibold">
           I’ve got two feet
