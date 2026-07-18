@@ -29,12 +29,54 @@ export default function TextPage() {
           Text
         </h2>
 
-        <div className="space-y-6 text-sm leading-8">
-          <p className="text-neutral-500">
-            Accompanying text coming soon.
-          </p>
-        </div>
-      </section>
+        <div className="space-y-6 text-[15px] leading-8 whitespace-pre-line">
+{`I’ve got two feet
+
+Two feet planted
+on the ground, now!
+My toes claw at the insides of my shoes
+like my stomach sometimes against my insides
+It’s not so much worrying, rather
+a constant state of re-action
+feels like something digging out of me
+from the ground upwards.
+
+Whoa my heart is racing? No it’s
+A whooooooosh of yellow
+Like when I rub my eyelids too hard, too fast
+making fireworks behind my eyes, and
+when I open them I forget
+which way the world turns.
+
+Why is the Center so loud?
+Colors and cultures clashing
+Like how rude
+I can’t hear my own thoughts
+Oh, if only some quiet so I could listen to myself, loudly
+my heart beats against my chest
+as the only reminder that I am here, too
+two feet planted
+on this godforsaken ground
+gripping my toes into my shoes
+in the hopes of being my own center of gravity
+there’s no place for my eyes to hold and focus my balance
+cause I don’t want to look at you, or
+you either
+and definitely not you.
+
+I cast my gaze upwards
+find a way out of the fight
+It’s not that I'm a hater but I’m not
+loving all the colors and words grabbing at me
+away from the ground upwards, but
+I’ve got my two feet planted and I’m not giving up my space
+for anyone.`}
+  </div>
+
+  <p className="mt-10 italic text-neutral-600">
+    — Jaime Heather Schwarz
+  </p>
+</section>
     </main>
   );
 }
