@@ -25,14 +25,16 @@ export default function TextPage() {
       </header>
 
       <section className="max-w-2xl border border-[#c3312f] p-6 md:p-8">
-        <h2 className="mb-8 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
+        <h2 className="mb-10 text-sm uppercase tracking-[0.25em] text-[#c3312f]">
           Text
         </h2>
 
-        <div className="space-y-6 text-[15px] leading-8 whitespace-pre-line">
-{`I’ve got two feet
+        <h3 className="mb-8 text-lg font-semibold">
+          I’ve got two feet
+        </h3>
 
-Two feet planted
+        <div className="whitespace-pre-line text-[15px] leading-8">
+          {`Two feet planted
 on the ground, now!
 My toes claw at the insides of my shoes
 like my stomach sometimes against my insides
@@ -67,16 +69,15 @@ and definitely not you.
 I cast my gaze upwards
 find a way out of the fight
 It’s not that I'm a hater but I’m not
-loving all the colors and words grabbing at me
-away from the ground upwards, but
+loving all the colors and words grabbing at me away from the ground upwards, but
 I’ve got my two feet planted and I’m not giving up my space
 for anyone.`}
-  </div>
+        </div>
 
-  <p className="mt-10 italic text-neutral-600">
-    — Jaime Heather Schwarz
-  </p>
-</section>
+        <p className="mt-10 italic text-neutral-600">
+          — Jaime Heather Schwarz
+        </p>
+      </section>
     </main>
   );
 }
