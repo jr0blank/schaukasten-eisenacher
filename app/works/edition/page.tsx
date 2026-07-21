@@ -44,7 +44,7 @@ export default function Edition() {
           <p className="text-neutral-600">
             Edition of 25, signed and numbered, 40 x 30 cm, printed on Munken 170g
           </p>
-          <p className="text-neutral-600">50 €</p>
+          <p className="text-neutral-600">70 €</p>
 
           <p className="pt-4 text-neutral-600">
             Available for purchase.
